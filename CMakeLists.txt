@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.1)
+project(algorithms)
+set(CMAKE_CXX_STANDARD  11)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+add_executable( test   test.cpp)
